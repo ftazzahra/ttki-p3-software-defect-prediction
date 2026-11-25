@@ -1,0 +1,11 @@
+informasi sumber dataset
+- **Nama Dataset:** NASA Software Defect Prediction (varian `JM1.arff`)
+- **Tautan Resmi Kaggle:** https://www.kaggle.com/datasets/aczy156/nasa-software-defect-prediction
+- **Tanggal Unduh:** 25 November 2026
+- **Lisensi:** CC0: Public Domain / NASA MDP Open Data
+- **Deskripsi Skema (`JM1.arff`):**
+  - Total observasi: 7.782 baris (unit observasi: modul kode perangkat lunak).
+  - Total kolom: 22 kolom (21 fitur metrik kode statis McCabe & Halstead bertipe numerik + 1 kolom target `label`).
+  - Kolom anggaran inspeksi: `LOC_TOTAL` (total *Lines of Code* per modul).
+  - Nilai label target: `b'N'` (tidak cacat / `0` = 6.110 modul) dan `b'Y'` (cacat / `1` = 1.672 modul).
+- **Aturan Penggunaan:** Berkas mentah tidak diunggah langsung ke repositori ini. Unduh langsung dari tautan Kaggle di atas sebelum menjalankan notebook eksperimen.
